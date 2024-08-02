@@ -1,0 +1,105 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: #ffe6ff;
+    color: #333;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.header-section, .footer-section {
+    background: rgba(255, 102, 204, 0.8);
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.header-section h1 {
+    font-size: 3em; /* Further reduced font size */
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.header-section p {
+    font-size: 1.5em; /* Further reduced font size */
+    font-family: 'Caveat', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.section-content {
+    border: 5px solid #ff99ff;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px auto;  /* Centering horizontally */
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;  /* Optional: limit the width of the content frame */
+    text-align: center;  /* Centering the text */
+    font-size: 1.2em; /* Further reduced font size */
+}
+
+.experience-section, .skills-section {
+    background: linear-gradient(270deg, #ff99ff, #ff66cc, #ffccff, #ff99ff);
+    background-size: 800% 800%;
+    animation: gradientAnimation 10s ease infinite;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.experience-section h2, .skills-section h2 {
+    font-size: 2.5em; /* Further reduced font size */
+    margin-bottom: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.experience-section p, .skills-section p {
+    font-size: 1.5em; /* Further reduced font size */
+    color: #ff66cc;
+    font-family: 'Baloo 2', cursive;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+ul.list-unstyled {
+    text-align: center;
+}
+
+ul.list-unstyled li {
+    font-size: 1.3em; /* Further reduced font size */
+    color: #cc66ff;
+    font-family: 'Comic Neue', cursive;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-shadow: 1px 1px 2px #000000;
+    font-size: 1.2em; /* Further reduced font size */
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ff99ff;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em; /* Further reduced font size */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
